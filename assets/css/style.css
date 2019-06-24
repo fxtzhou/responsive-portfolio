@@ -187,14 +187,65 @@ footer{
     color: white;
 }
 
-@media only screen and (max-width: 960px){  }  @media only screen and (max-width: 768px){  }  
+@media only screen and (max-width: 980px){
+    .container{
+        width: 100%;
+    }
+    
+    nav{  
+        margin-top: 25px;
+        height: 25px;
+        text-align: center;
+    }
+    
+    .name{
+        margin-left: 35px;
+    }
+    
+    .profile img{
+        height: auto;
+    }
+    
+    .about{
+        margin-left: 35px;
+        float: left;
+        width: 70%;
+    }
+}  
+
+  @media only screen and (max-width: 768px){
+
+.container{
+    width: 100%;
+}
+
+nav{  
+    margin-top: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.name{
+    margin-left: 35px;
+}
+
+.profile img{
+    width: 50%;
+    height: auto;
+}
+
+.about{
+    width: 90%;
+}
+
 
 @media only screen and (max-width: 640px){  
 
 .container{
     width: 100%;
 }
-.name{   
+.name{ 
+    margin: 0 auto;  
     width: 100%;  
 }
 nav{  
@@ -213,11 +264,7 @@ nav{
 }
 
 .about{
-    width: 90%;
-}
-
-footer{
-    overflow: auto;
-    width: 100%;
+    margin: 5%;
+    margin-bottom: 100px;
 }
 }
