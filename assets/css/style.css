@@ -121,6 +121,7 @@ input[type=text]{
     font-size: 16px;
     color: #666666;
     padding: 5px;
+    border: 1px solid #666666;
 }
 
 input[name="message"]{
@@ -211,6 +212,15 @@ footer{
         float: left;
         width: 70%;
     }
+
+    .pimg img{
+        width: 290px;
+        height: auto;
+    }
+
+    input[type=text]{
+        width: 600px;
+    }
 }  
 
   @media only screen and (max-width: 768px){
@@ -237,6 +247,16 @@ nav{
 .about{
     width: 90%;
 }
+
+.pimg img{
+    width: 275px;
+    height: auto;
+}
+
+input[type=text]{
+    width: 600px;
+}
+  }
 
 
 @media only screen and (max-width: 640px){  
@@ -267,4 +287,14 @@ nav{
     margin: 5%;
     margin-bottom: 100px;
 }
+
+.pimg img{
+    width: 500px;
+    height: auto;
 }
+
+input[type=text]{
+    width: 500px;
+}
+}
+
