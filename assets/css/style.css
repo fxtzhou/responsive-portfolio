@@ -1,17 +1,19 @@
 body{
     background-image: url("../papyrus-dark.png");
+    margin: 0 auto;
 }
 
 header{
-    background-color: white;
+    background: white;
+    width: 100%;
 }
 
 .container{
     margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-    clear: both;
+    width: 960px;
     height: 75px;
+
+
 }
 
 section{
@@ -39,9 +41,9 @@ nav{
     float: right;
     margin-top: 25px;
     margin-right: 10px;
+    background: white;
 }
 
-/* Targets container of section */
 .about{
     margin: auto;
     margin-top: 50px;
@@ -177,9 +179,45 @@ footer{
     bottom: 0;
     width: 100%;
     background: #666666;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     height: 10px;
     clear: both;
     border-top: 5px solid #4aaaa5;
     color: white;
+}
+
+@media only screen and (max-width: 960px){  }  @media only screen and (max-width: 768px){  }  
+
+@media only screen and (max-width: 640px){  
+
+.container{
+    width: 100%;
+}
+.name{   
+    width: 100%;  
+}
+nav{  
+    width: 100%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    overflow: auto;
+
+}
+
+.profile img{
+    width: 100%;
+    height: auto;
+}
+
+.about{
+    width: 90%;
+}
+
+footer{
+    overflow: auto;
+    width: 100%;
+}
 }
